@@ -2,10 +2,10 @@
   "name": "library-backend",
   "version": "1.0.0",
   "description": "",
-  "module": "module",
+  "type": "module",
   "main": "server.js",
   "scripts": {
-    "dev" : "nodemon server.js",
+    "dev": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "mongoose": "^8.4.0",
     "swagger-jsdoc": "^6.2.8",
